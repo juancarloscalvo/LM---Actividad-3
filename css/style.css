@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Slim&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Nova Slim", system-ui;
 }
@@ -26,8 +26,8 @@ section {
 
 header {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 40px 100px;
     display: flex;
@@ -282,7 +282,7 @@ header .navbar li a:hover {
 
 .contenido .card .front h3 {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 45px;
     line-height: 45px;
@@ -535,7 +535,7 @@ header .navbar li a:hover {
 
 .copyright {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     margin-bottom: 20px;
     padding: 0 100px 30px;
     display: flex;
@@ -551,8 +551,8 @@ header .navbar li a:hover {
 
 .redesSociales {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -687,6 +687,14 @@ button:hover {
         font-size: 1.0em;
     }
 
+    .contenido .tituloBox .titulo {
+        font-size: 1.5em;
+    }
+    
+    .contenido .tituloBox .titulo2 {
+        font-size: 1.5em;
+    }
+
     .contenido .tituloBox {
         padding: 20px;
         min-width: 200px;
@@ -799,10 +807,6 @@ button:hover {
         max-width: 100%;
         padding: 5%;
         margin-bottom: 15%;
-    }
-
-    .contenido .tituloBox h2 {
-        font-size: 2em;
     }
 
     .contenido .tituloBox p {
