@@ -89,6 +89,7 @@ header .navbar li a:hover {
     height: 24px;
 }
 
+/* Animación para las barras de habilidades, con el animation fillBar modificamos el tamaño de la barra de 0 a 90 para que simule el movimiento al cargar la página */
 .barra {
     background: linear-gradient(90deg, #34a0dd, #42bc99);
     height: 100%;
@@ -449,6 +450,7 @@ header .navbar li a:hover {
     color: #6a1b9a;
 }
 
+/* Animacion para el titulo de la página principal, se modifica la opacidad del texto durante 5 segundos para mostrar una transición al cargar la página */
 .fade-glow {
     opacity: 0;
     animation: fadeGlow 5s ease-out forwards;
@@ -464,6 +466,7 @@ header .navbar li a:hover {
     }
 }
 
+/* Animacion para el texto de la página principal, empieza con una escala de 0,2 para luego ser animada hasta su tamaño original */
 .slide-in {
     opacity: 0;
     transform: scale(0.2);
@@ -784,6 +787,7 @@ button:hover {
     }
 }
 
+/* Responsive para ≤576px */
 @media (max-width: 576px) {
 
     header {
